@@ -1,0 +1,3 @@
+/Users/zsx/Project/cpp_template/install/bin/module1
+/Users/zsx/Project/cpp_template/install/lib/libmodule2.dylib
+/Users/zsx/Project/cpp_template/install/lib/libmodule3.dylib

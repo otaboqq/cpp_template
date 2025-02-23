@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/zsx/Project/cpp_template/build/module1",
+  "command": "/usr/bin/clang++  -I/Users/zsx/Project/cpp_template/module1/include -I/Users/zsx/Project/cpp_template/module2/include -I/Users/zsx/Project/cpp_template/module3/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/module1.dir/src/main.cpp.o -c /Users/zsx/Project/cpp_template/module1/src/main.cpp",
+  "file": "/Users/zsx/Project/cpp_template/module1/src/main.cpp",
+  "output": "module1/CMakeFiles/module1.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/zsx/Project/cpp_template/build/module1",
+  "command": "/usr/bin/clang++  -isystem /Users/zsx/Project/vcpkg/installed/arm64-osx/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/test1.dir/test/test1.cpp.o -c /Users/zsx/Project/cpp_template/module1/test/test1.cpp",
+  "file": "/Users/zsx/Project/cpp_template/module1/test/test1.cpp",
+  "output": "module1/CMakeFiles/test1.dir/test/test1.cpp.o"
+},
+{
+  "directory": "/Users/zsx/Project/cpp_template/build/module2",
+  "command": "/usr/bin/clang++ -Dmodule2_EXPORTS -I/Users/zsx/Project/cpp_template/module2/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -o CMakeFiles/module2.dir/src/test.cpp.o -c /Users/zsx/Project/cpp_template/module2/src/test.cpp",
+  "file": "/Users/zsx/Project/cpp_template/module2/src/test.cpp",
+  "output": "module2/CMakeFiles/module2.dir/src/test.cpp.o"
+},
+{
+  "directory": "/Users/zsx/Project/cpp_template/build/module3",
+  "command": "/usr/bin/clang++ -Dmodule3_EXPORTS -I/Users/zsx/Project/cpp_template/module3/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -o CMakeFiles/module3.dir/src/test.cpp.o -c /Users/zsx/Project/cpp_template/module3/src/test.cpp",
+  "file": "/Users/zsx/Project/cpp_template/module3/src/test.cpp",
+  "output": "module3/CMakeFiles/module3.dir/src/test.cpp.o"
+}
+]
