@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/module1.dir/src/main.cpp.o -o module1  -Wl,-rpath,/Users/zsx/Project/cpp_template/build/module2 -Wl,-rpath,/Users/zsx/Project/cpp_template/build/module3 ../module2/libmodule2.dylib ../module3/libmodule3.dylib

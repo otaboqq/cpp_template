@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -dynamiclib -Wl,-headerpad_max_install_names -o libmodule2.dylib -install_name @rpath/libmodule2.dylib CMakeFiles/module2.dir/src/test.cpp.o
