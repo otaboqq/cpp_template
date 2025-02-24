@@ -8,6 +8,7 @@ set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_SOURCE_DIR}/install" CACHE PATH "Insta
 project(cpp-test)
 
 find_package(GTest REQUIRED)
+enable_testing()
 
 add_subdirectory(module1)
 add_subdirectory(module2)
